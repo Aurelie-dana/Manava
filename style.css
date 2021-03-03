@@ -10,7 +10,7 @@
 .site-footer
 {
   background-color: #00BFFF;
-  padding:45px 0 20px;
+  padding:45px 2px 20px;
   font-size:15px;
   line-height:24px;
   color:#fff;
@@ -22,7 +22,7 @@
 }
 .site-footer hr.small
 {
-  margin:20px 0
+  margin:20px 0;
 }
 .site-footer h6
 {
@@ -86,10 +86,10 @@
 {
   .site-footer [class^=col-]
   {
-    margin-bottom:30px
+    margin-left: 0px;
   }
 }
-@media (max-width:767px)
+@media (max-width:768px)
 {
   .site-footer
   {
@@ -130,9 +130,6 @@
   text-align:center;
   margin-right:8px;
   border-radius:100%;
-  -webkit-transition:all .2s linear;
-  -o-transition:all .2s linear;
-  transition:all .2s linear
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
