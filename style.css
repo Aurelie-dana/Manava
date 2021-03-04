@@ -1,15 +1,17 @@
 /* Navbar */
 
+/* color #1d6627 / #f7f7c7 / #e3e3e3 / #575757 */
+
 .navbar
 {
-    background-color:#00BFFF;
+    background-color:#BDB76B;
 }
 
 /* Footer */
 
 .site-footer
 {
-  background-color: #00BFFF;
+  background-color: #BDB76B;
   padding:45px 2px 20px;
   font-size:15px;
   line-height:24px;
@@ -100,12 +102,16 @@
     text-align:center
   }
 }
+
+/*Icons*/
+
 .social-icons
 {
   padding-left:0;
   margin-bottom:0;
   list-style:none
 }
+
 .social-icons li
 {
   display:inline-block;
@@ -119,9 +125,10 @@
   font-weight:700;
   font-size:13px
 }
-.social-icons a{
+.social-icons a
+{
   background-color:#eceeef;
-  color:#818a91;
+  color:white;
   font-size:16px;
   display:inline-block;
   line-height:44px;
@@ -149,11 +156,11 @@
 }
 .social-icons a.twitter:hover
 {
-  background-color:#00aced
+  background-color:#00acee
 }
 .social-icons a.linkedin:hover
 {
-  background-color:#007bb6
+  background-color:#0e76a8
 }
 .social-icons a.dribbble:hover
 {
@@ -169,5 +176,190 @@
   }
 }
 
+/* Carousel */
+
+.carousel-item 
+{
+  background-size:contain;
+  background-position:center;
+  background-repeat:no-repeat no-repeat;
+  width:100%;
+  height:100%
+}
+
+.carousel-inner img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption p
+{
+    font-size: 120%;
+    padding-top: 7px;
+}
+
+.carousel-caption h5
+{
+    font-size: 150%;
+    font-weight: 30px;
+    padding-bottom: 10px;
+}
+
+/* Section Paris */
+
+#section-paris
+{
+  background-color:#f7f7c7;
+}
+
+.paris2 img
+{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 30%;
+}
+
+.paris3 img
+{
+  width: 100%;
+  height: 100%;
+  padding-top: 55px;
+  border-radius: 35%;
+}
+
+.heading-1 h2
+{
+    color: #BDB76B;
+    font-size: 150%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.heading-1
+{
+    background:black;
+    padding-top: 80px;
+}
+
+.white-divider
+{
+    width: 150px;
+    height: 5px;
+    background:#BDB76B;
+    margin: 0 auto;
+}
+
+.txt-heading2
+{
+    background-color:black;
+    padding-bottom: 44px;
+}
+
+.txt-heading2 li
+{
+    font-size: 13px;
+    color: #BDB76B;
+    margin: 0 20px 0 20px;
+}
+
+.txt-heading2 .txt-exp
+{
+    color:#BDB76B;
+}
+
+.txt-heading2 .paris-p
+{
+  font-style: italic;
+  color: #778899;
+}
+
+.paristexte
+{
+  text-align: center;
+  padding: 20px;
+}
+
+/*Section Reims*/
+
+#section-reims
+{
+  background-color:  #1d6627 ;
+}
+
+.reims2 img
+{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 30%;
+}
+.reims3 img
+{
+  width: 100%;
+  height: 100%;
+  padding-top: 55px;
+  border-radius: 35%;
+}
+
+.heading-1 h2
+{
+    color: #BDB76B;
+    font-size: 150%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.heading-1
+{
+    background:black;
+    padding-top: 80px;
+}
+
+.white-divider
+{
+    width: 150px;
+    height: 5px;
+    background:#BDB76B;
+    margin: 0 auto;
+}
+
+.reimstexte .txt-heading2
+{
+    background-color:black;
+    padding-bottom: 44px;
+}
+
+.reimstexte .txt-heading2 li
+{
+    font-size: 13px;
+    color: #BDB76B;
+    margin: 0 20px 0 20px;
+}
+
+.reimstexte .txt-heading2 .txt-exp
+{
+    color:#BDB76B;
+}
+
+.reimstexte .txt-heading2 .reims-p
+{
+  font-style: italic;
+  color: #778899;
+}
+
+.reimstexte
+{
+  text-align: center;
+  padding: 20px;
+}
 
 
