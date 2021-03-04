@@ -4,7 +4,7 @@
 
 .navbar
 {
-    background-color:#BDB76B;
+    background-color:#1d6627;
 }
 
 /* Footer */
@@ -246,7 +246,7 @@
 
 .heading-1
 {
-    background:black;
+    background:#1d6627;
     padding-top: 80px;
 }
 
@@ -260,7 +260,7 @@
 
 .txt-heading2
 {
-    background-color:black;
+    background-color:#1d6627;
     padding-bottom: 44px;
 }
 
@@ -292,7 +292,7 @@
 
 #section-reims
 {
-  background-color:  #1d6627 ;
+  background-color:#1d6627;
 }
 
 .reims2 img
@@ -302,6 +302,7 @@
     padding: 20px;
     border-radius: 30%;
 }
+
 .reims3 img
 {
   width: 100%;
@@ -310,47 +311,47 @@
   border-radius: 35%;
 }
 
-.heading-1 h2
+.heading-reims-1 h2
 {
-    color: #BDB76B;
+    color: #1d6627;
     font-size: 150%;
     text-transform: uppercase;
     text-align: center;
 }
 
-.heading-1
+.heading-reims-1
 {
-    background:black;
+    background:#BDB76B;
     padding-top: 80px;
 }
 
-.white-divider
+.green-divider
 {
     width: 150px;
     height: 5px;
-    background:#BDB76B;
+    background:#1d6627;
     margin: 0 auto;
 }
 
-.reimstexte .txt-heading2
+.txt-heading2-reims
 {
-    background-color:black;
+    background-color:#BDB76B;
     padding-bottom: 44px;
 }
 
-.reimstexte .txt-heading2 li
+.txt-heading2-reims li
 {
     font-size: 13px;
-    color: #BDB76B;
+    color: #1d6627;
     margin: 0 20px 0 20px;
 }
 
-.reimstexte .txt-heading2 .txt-exp
+.txt-heading2-reims .txt-exp
 {
-    color:#BDB76B;
+    color:#1d6627;
 }
 
-.reimstexte .txt-heading2 .reims-p
+.txt-heading2-reims .reims-p
 {
   font-style: italic;
   color: #778899;
