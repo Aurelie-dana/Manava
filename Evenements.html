@@ -11,44 +11,96 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css" >
 </head>
 
 <body>
 
-    <header>
 
-        <!--Barre de Nav début-->
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Accueil</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link text-light" aria-current="page" href="Apropos.html">A propos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navbar-expand-lg text-light" href="Evenements.html">Évènements</a>
-                  </li>
-                </ul>
-                  <a href="contact.html" class="btn btn-outline-light" type="Contact">Contact</a>
-              </div>
+  <header>
+
+    <!--Barre de Nav début-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Accueil</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="Apropos.html">A propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-expand-lg text-light" href="Evenements.html">Évènements</a>
+              </li>
+            </ul>
+              <a href="contact.html" class="btn btn-outline-light" type="Contact">Contact</a>
+          </div>
+        </div>
+        </nav>
+    <!--Barre de Nav fin-->
+
+</header>
+
+      
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#mycarousel" data-slide-to="1"></li>
+        <li data-target="#mycarousel" data-slide-to="2"></li>
+        <li data-target="#mycarousel" data-slide-to="3"></li>
+      </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/Reims.jpeg" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Événement vous avez dit ?</h5>
+              <p>L'association organise des événements à Paris, Reims en Bretagne et à Tahiti.</p>
+              <a href="#" class="btn btn-lg btn-primary">Cliquez ici pour Reims</a>
             </div>
-            </nav>
-        <!--Barre de Nav fin-->
+          </div>
 
-    </header>
+          <div class="carousel-item">
+            <img src="img/Paris.jpeg" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Événement vous avez dit ?</h5>
+              <p>Lors de ces événements, nous organisons des ateliers manuel ou mêmes des visites guidées avec certains de nos bénévoles.</p>
+              <a href="#" class="btn btn-lg btn-primary">Cliquez ici pour Paris</a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/Bretagne.jpeg" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Événement vous avez dit ?</h5>
+              <p>Des atelier plongés sont prévus en Bretagne et à Tahiti, avec l'aide de l'un de nos sponsor.</p>
+              <a href="#" class="btn btn-lg btn-primary">Cliquez ici pour la Bretagne</a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/Tahiti.jpeg" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Événement vous avez dit ?</h5>
+              <p>L'association organise des événements à Paris, Reims en Bretagne et à Tahiti.</p>
+              <a href="#" class="btn btn-lg btn-primary">Cliquez ici pour Tahiti</a>
+            </div>
+          </div>
+
+        </div>
 
 
-    <div class="container-fluid">
-        <h1>Événement vous avez dit ?</h1>
-        <p class="p">L'association organise des événements à Paris, Reims en Bretagne et à Tahiti.</p>
-        <p class="p">Lors de ces événements, nous organisons des ateliers manuel ou mêmes des visites guidées avec certains de nos bénévoles.</p>
-        <p class="p">Des atelier plongés sont prévus en Bretagne et à Tahiti, avec l'aide de l'un de nos sponsor.</p>
-        <p class="p">Des visites sont également prévus à Paris, Reims en Bretagne et à Tahiti.</p>
+        <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
     </div>
 
     <div class="container-fluid">
@@ -130,7 +182,7 @@
       </div>
     </row>
 
-        <!--Icons-->
+
 
         <row>
           <div class="col-md-12 col-sm-12 col-xs-12">
