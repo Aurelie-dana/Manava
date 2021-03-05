@@ -213,14 +213,14 @@
     padding-bottom: 10px;
 }
 
-/* Section Paris */
+/* Section Grenn */
 
-#section-paris
+#green-square
 {
   background-color:#f7f7c7;
 }
 
-.paris2 img
+.green-square-img-2 img
 {
     width: 100%;
     height: 100%;
@@ -228,7 +228,7 @@
     border-radius: 30%;
 }
 
-.paris3 img
+.green-square-img-3 img
 {
   width: 100%;
   height: 100%;
@@ -236,7 +236,7 @@
   border-radius: 35%;
 }
 
-.heading-1 h2
+.green-square-heading h2
 {
     color: #BDB76B;
     font-size: 150%;
@@ -244,7 +244,7 @@
     text-align: center;
 }
 
-.heading-1
+.green-square-heading
 {
     background:#1d6627;
     padding-top: 80px;
@@ -258,44 +258,44 @@
     margin: 0 auto;
 }
 
-.txt-heading2
+.green-square-txt-heading
 {
     background-color:#1d6627;
     padding-bottom: 44px;
 }
 
-.txt-heading2 li
+.green-square-txt-heading li
 {
     font-size: 13px;
     color: #BDB76B;
     margin: 0 20px 0 20px;
 }
 
-.txt-heading2 .txt-exp
+.green-square-txt-heading .txt-exp
 {
     color:#BDB76B;
 }
 
-.txt-heading2 .paris-p
+.green-square-txt-heading .green-square-p
 {
   font-style: italic;
   color: #778899;
 }
 
-.paristexte
+.green-square-texte
 {
   text-align: center;
   padding: 20px;
 }
 
-/*Section Reims*/
+/*Section yellow*/
 
-#section-reims
+#yellow-square
 {
   background-color:#1d6627;
 }
 
-.reims2 img
+.yellow-square-img-2 img
 {
     width: 100%;
     height: 100%;
@@ -303,15 +303,15 @@
     border-radius: 30%;
 }
 
-.reims3 img
+.yellow-square-img-3 img
 {
   width: 100%;
   height: 100%;
-  padding-top: 55px;
+  padding-top: 5px;
   border-radius: 35%;
 }
 
-.heading-reims-1 h2
+.yellow-square-heading h2
 {
     color: #1d6627;
     font-size: 150%;
@@ -319,7 +319,7 @@
     text-align: center;
 }
 
-.heading-reims-1
+.yellow-square-heading
 {
     background:#BDB76B;
     padding-top: 80px;
@@ -333,31 +333,31 @@
     margin: 0 auto;
 }
 
-.txt-heading2-reims
+.yellow-square-txt-heading
 {
     background-color:#BDB76B;
     padding-bottom: 44px;
 }
 
-.txt-heading2-reims li
+.yellow-square-txt-heading li
 {
     font-size: 13px;
     color: #1d6627;
     margin: 0 20px 0 20px;
 }
 
-.txt-heading2-reims .txt-exp
+.yellow-square-txt-heading .txt-exp
 {
     color:#1d6627;
 }
 
-.txt-heading2-reims .reims-p
+.yellow-square-txt-heading .yellow-square-p
 {
   font-style: italic;
   color: #778899;
 }
 
-.reimstexte
+.yellow-square-texte
 {
   text-align: center;
   padding: 20px;
