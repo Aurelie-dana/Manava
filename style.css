@@ -189,8 +189,9 @@
 
 .carousel-inner img
 {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
 }
 
 .carousel-caption
@@ -213,28 +214,34 @@
     padding-bottom: 10px;
 }
 
+
 /* Section Grenn */
+
+/*Image */
 
 #green-square
 {
   background-color:#f7f7c7;
 }
 
-.green-square-img-2 img
+.card
 {
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    border-radius: 30%;
+  width: 18rem;
+  background-color: #d9dcd8;
 }
 
-.green-square-img-3 img
+.card-body
 {
-  width: 100%;
-  height: 100%;
-  padding-top: 55px;
-  border-radius: 35%;
+  padding-top: 20px;
+  text-align: center;
 }
+
+.card-text
+{
+  color: black;
+}
+
+/* Texte événement */
 
 .green-square-heading h2
 {
@@ -257,6 +264,7 @@
     background:#BDB76B;
     margin: 0 auto;
     margin-top: 25px;
+    border-radius: 50%;
 }
 
 .green-square-txt-heading
@@ -296,22 +304,6 @@
   background-color:#1d6627;
 }
 
-.yellow-square-img-2 img
-{
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    border-radius: 30%;
-}
-
-.yellow-square-img-3 img
-{
-  width: 100%;
-  height: 100%;
-  padding-top: 5px;
-  border-radius: 35%;
-}
-
 .yellow-square-heading h2
 {
     color: #1d6627;
@@ -333,6 +325,7 @@
     background:#1d6627;
     margin: 0 auto;
     margin-top: 25px;
+    border-radius: 50%;
 }
 
 .yellow-square-txt-heading
