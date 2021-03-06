@@ -178,7 +178,7 @@
 
 /* Carousel */
 
-.carousel-item 
+.carousel-item
 {
   background-size:contain;
   background-position:center;
@@ -230,16 +230,7 @@
   background-color: #d9dcd8;
 }
 
-.card-body
-{
-  padding-top: 20px;
-  text-align: center;
-}
 
-.card-text
-{
-  color: black;
-}
 
 /* Texte événement */
 
