@@ -134,6 +134,11 @@
   color: #778899;
 }
 
+.green-square-p-création
+{
+  color: #BDB76B;
+}
+
 .green-square-texte
 {
   text-align: center;
@@ -372,3 +377,4 @@
     font-weight:600;
   }
 }
+
