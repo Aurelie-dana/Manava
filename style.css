@@ -48,24 +48,20 @@
 
 /* Section Création */
 
-.création
+#création
 {
   background-color: #f7f7c7;
 }
-.texte-création h2
-{
-  text-align: center;
-}
 
-.card-création
+.card-créa
 {
-  width: 40rem;
   background-color: #d9dcd8;
 }
 
-.card-text-création
+.card-body h1
 {
   text-align: center;
+  font-size: 30px;
 }
 
 /* Section Grenn Evénement*/
