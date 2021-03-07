@@ -44,7 +44,142 @@
     padding-bottom: 10px;
 }
 
-/* */ 
+/* A propos */
+
+#Apropos
+{
+    background:#1d6627;
+}
+
+#Apropos .heading h2
+{
+    color:#f7f7c7;
+    text-align: center;
+}
+
+.timeline-body
+{
+    color:#474747;
+    font-size: 17.8px;
+}
+
+.timeline
+{
+    padding: 30px 10px;
+    position: relative;
+}
+
+.timeline:before
+{
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    content: " ";
+    width: 5px;
+    background-color:#f7f7c7;
+    left: 50%;
+    margin-left: -2,5px;
+}
+
+.timeline > li
+{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline > li:after
+{
+    clear: both;
+}
+
+.timeline > li:before, .timeline > li:after
+{
+    content: " ";
+    display: table;
+}
+
+.timeline li .timeline-badge
+{
+    color: #1d6620;
+    width: 50px;
+    line-height: 50px;
+    font-size: 27px;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -23px;
+    background-color:#e3e3e3;
+    border-radius: 50%;
+}
+
+.text-muted
+
+{
+    color: white ;
+}
+
+.timeline-panel-container
+{
+    width: 50%;
+    float: left;
+
+}
+
+.timeline-panel-container-inverted
+{
+    width: 50%;
+    float: right;
+}
+
+.timeline-panel
+{
+    width: 90%;
+    float: right;
+    margin-right: 40px;
+    border: 7px solid #e3e3e3;
+    border-radius: 12px;
+    padding: 20px 25px;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0,0,0, 0.175);
+    background:#f7f7c7;
+}
+
+.timeline-panel-container-inverted .timeline-panel
+{
+
+    float: left;
+    margin-left: 40px;
+
+}
+
+.timeline-panel:after
+{
+    position: absolute;
+    top: 14px;
+    right: -22px;
+    display: inline-block;
+    border-top: 22px solid transparent;
+    border-left: 22px  solid #e3e3e3;
+    border-right: 0 solid #e3e3e3;
+    border-bottom: 22px solid transparent;
+    content: " ";
+}
+
+.timeline-panel-container-inverted .timeline-panel:after
+{
+    border-left-width: 0px;
+    border-right-width: 22px;
+    left: -22px;
+    right: auto;
+}
+
+.timeline-heading h3
+{
+    margin-top: 5px;
+    font-size: 21px;
+    color:#575757;
+}
 
 /* Section Création */
 
