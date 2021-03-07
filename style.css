@@ -57,6 +57,11 @@
     text-align: center;
 }
 
+ul,ol
+{
+  list-style:none ;
+}
+
 .timeline-body
 {
     color:#474747;
